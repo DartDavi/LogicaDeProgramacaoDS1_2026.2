@@ -8,6 +8,4 @@ match opcao:
     case 3:
         print ("Devolver livro")
     case _: 
-        print ("Não encontrado")
-
-# Desenvolva a estrutura de seleção aqui
+        print ("Não encontrado") 

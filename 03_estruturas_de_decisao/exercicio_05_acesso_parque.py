@@ -12,3 +12,16 @@ Imprima o tipo de bilhete e o valor final a pagar.
 """
 
 # TODO: Desenvolva o algoritmo abaixo:
+
+idade = int(input("Digite a idade do visitante: "))
+if idade < 12:
+    entrada = "Infantil"
+    ingresso = 50.00
+elif idade >= 60:
+    entrada = "Melhor Idade"
+    ingresso = 00.00
+else:
+    entrada = "Integral"
+    ingresso = 100.00
+print(f"O seu bilhete é: {entrada}")
+print(f"E o valor a pagar será: R${ingresso:.2f}")
