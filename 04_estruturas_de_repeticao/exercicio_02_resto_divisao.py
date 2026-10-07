@@ -9,3 +9,13 @@ cujo resto da divisão por 5 seja igual a 2 ou igual a 3.
 """
 
 # TODO: Desenvolva o algoritmo abaixo:
+x = int(input("Digite o valor de X: "))
+y = int(input("Digite o valor de Y: "))
+if x > y:
+    inicio, fim = y, x
+else:
+    inicio, fim = x, y
+print(f"Números entre {inicio} e {fim} com resto 2 ou 3:")
+for i in range(inicio + 1, fim):
+    if i % 5 == 2 or i % 5 == 3:
+        print(i)

@@ -10,9 +10,9 @@ foram digitados. Ao final, imprima a quantidade total.
 
 # TODO: Desenvolva o algoritmo abaixo:
 contador = 0
-print("Digite 5 números inteiros, um de cada vez.")
+print("Digite 5 números inteiros um de cada vez")
 for i in range(5):
-    n = int(input(f"Digite o número {i + 1}: "))
+    n = int(input(f"Digite o numero {i + 1}: "))
     if n % 2 == 0:
         contador += 1
-print(f"Você digitou {contador} número(s) par(es).")
+print(contador)
